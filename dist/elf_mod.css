@@ -1,11 +1,14 @@
-// 页面定制 CSS 代码
+/* 页面定制 CSS 代码 */
 
-#home {/* 自定义背景 */
+/* 自定义背景 */
+#home {
 background: url(https://z3.ax1x.com/2021/06/08/2rwVAJ.jpg) 0/cover fixed;
 }
-#header {/* 隐藏标题背景 */
+/* 隐藏标题背景 */
+#header {
 background: 0 !important
 }
+/* 点赞按钮动画效果，使用了tada规则 */
 #div_digg .diggit {
     animation: tada infinite 2s;
     animation-duration: 2s;
@@ -17,6 +20,7 @@ background: 0 !important
     animation-play-state: running;
     animation-name: tada
 }
+/* tada规则 */
 @keyframes tada {
   from {
     transform: scale3d(1, 1, 1);
@@ -40,24 +44,29 @@ background: 0 !important
     transform: scale3d(1, 1, 1);
   }
 }
-#green_channel {/* 隐藏分享栏*/
+/* 隐藏分享栏 */
+#green_channel {
 display: none
 }
-#div_digg .buryit {/* 隐藏踩按钮，嘿嘿~ */
+/* 隐藏踩按钮，嘿嘿~ */
+#div_digg .buryit {
 display: none
 }
-.catListArticleCategory {/*文章分类统一样式*/
+/* 文章分类统一样式 */
+.catListArticleCategory {
     border-radius: 7px 7px 7px 7px;
     box-shadow: 1px 1px 2px #a7a8ad;
     background: #fafcfd;
     margin: 20px 5px;
 }
-.catListArticleCategory ul li {/*同上，文章分类统一样式*/
+/* 同上，文章分类统一样式 */
+.catListArticleCategory ul li {
     border-bottom: 1px solid #dadfe1;
     border-top: 1px solid #fff;
     overflow: hidden;
     padding: 5px;
 }
-#footer {/* 隐藏博客底部白条 */
+/* 隐藏博客底部白条 */
+#footer {
 margin-bottom: 0
 }
